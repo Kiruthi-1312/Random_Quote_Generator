@@ -1,38 +1,70 @@
-.App {
+#root,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.app {
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(./img/bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  flex-direction: column;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  color: teal;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card {
+  background-color: rgb(196, 193, 193);
+  min-width: 50%;
+  min-height: 20%;
+  max-width: 70%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  border-radius: 25px;
+  padding: 10px 10px;
+  margin-bottom: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.heading {
+  display: flex;
+  align-items: center;
+  font-family: "Sail", cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.button {
+  position: relative;
+  outline: none;
+  text-decoration: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  height: 75px;
+  width: 175px;
+  opacity: 1;
+  background-color: #4ad6bfd2;
+  border: 1px solid rgba(22, 167, 107, 0.6);
+}
+@media only screen and (max-width: 600px) {
+  .card {
+    min-width: 90%;
+    max-width: 95%;
+    min-height: 30%;
   }
-  to {
-    transform: rotate(360deg);
+  .heading {
+    font-size: 18px;
   }
 }

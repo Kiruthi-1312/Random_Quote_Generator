@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Random_Quote_Generator/static/css/main.df2b196f.chunk.css",
+    "main.js": "/Random_Quote_Generator/static/js/main.d6e0c234.chunk.js",
+    "main.js.map": "/Random_Quote_Generator/static/js/main.d6e0c234.chunk.js.map",
+    "runtime-main.js": "/Random_Quote_Generator/static/js/runtime-main.f7909811.js",
+    "runtime-main.js.map": "/Random_Quote_Generator/static/js/runtime-main.f7909811.js.map",
+    "static/js/2.83f155db.chunk.js": "/Random_Quote_Generator/static/js/2.83f155db.chunk.js",
+    "static/js/2.83f155db.chunk.js.map": "/Random_Quote_Generator/static/js/2.83f155db.chunk.js.map",
+    "index.html": "/Random_Quote_Generator/index.html",
+    "static/css/main.df2b196f.chunk.css.map": "/Random_Quote_Generator/static/css/main.df2b196f.chunk.css.map",
+    "static/js/2.83f155db.chunk.js.LICENSE.txt": "/Random_Quote_Generator/static/js/2.83f155db.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Random_Quote_Generator/static/media/bg1.ffc103a2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7909811.js",
+    "static/js/2.83f155db.chunk.js",
+    "static/css/main.df2b196f.chunk.css",
+    "static/js/main.d6e0c234.chunk.js"
+  ]
+}
